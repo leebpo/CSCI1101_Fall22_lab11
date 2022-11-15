@@ -25,6 +25,7 @@ def total_size(filesizes):
    for f in filesizes:
      totalsize = 0
      totalsize += filesizes[f]
+   return totalsize
 
 filesizes = {"text.txt" : 45, "ps4.py": 70, "hw9.pdf": 32}
 tot_size = total_size(filesizes)
